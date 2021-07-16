@@ -1,3 +1,14 @@
+/* ------------------------
+       google API font 
+   -------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* ------------------------
+    header section design 
+   -------------------------*/
 .top-section{
     background-color: #2D25A0;
     width: 1270px;
@@ -44,6 +55,9 @@ button{
 button:hover{
     border-radius: 50%;
 }
+/* ------------------------
+    main section design 
+   -------------------------*/
 .grid-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -72,7 +86,7 @@ button:hover{
     width: 266px;
     height: 109px;
     left: 182px;
-    top: 2448px;
+    top: 2648px;
     transition: width 2s, height 2s, transform 2s;
 }
 .highlights-writtings:hover{
@@ -87,7 +101,7 @@ button:hover{
     width: 767px;
     height: 527px;
     left: 717px;
-    top: 2448px;
+    top: 2700px;
     transition: width 2s, height 2s, transform 2s;
 }
 #highlights-image:hover {
@@ -95,4 +109,18 @@ button:hover{
     -ms-transform: scale(1.2);
     transform: scale(1.2);
     
+}
+/* ------------------------
+    footer section design 
+   -------------------------*/
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 483.87px;
+    height: 213px;
+    left: 375px;
+    top: 3174px;
 }
